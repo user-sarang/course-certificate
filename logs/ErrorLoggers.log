@@ -1,0 +1,6 @@
+2018-05-22 11:01:16,004  ERROR  16888  F:\old_my_documents\web_projects\certificate\certificate\views.py  read_csv  50  TypeError("int() argument must be a string, a bytes-like object or a number, not 'dict'",)  
+2018-05-22 11:01:16,005  ERROR  16888  F:\old_my_documents\web_projects\certificate\certificate\views.py  read_csv  50  TypeError("int() argument must be a string, a bytes-like object or a number, not 'dict'",)  
+2018-05-22 11:01:16,005  ERROR  16888  F:\old_my_documents\web_projects\certificate\certificate\views.py  read_csv  50  IndexError('list index out of range',)  
+2018-05-22 11:01:23,904  ERROR  16888  F:\old_my_documents\web_projects\certificate\certificate\views.py  read_csv  50  TypeError("int() argument must be a string, a bytes-like object or a number, not 'dict'",)  
+2018-05-22 11:01:23,905  ERROR  16888  F:\old_my_documents\web_projects\certificate\certificate\views.py  read_csv  50  TypeError("int() argument must be a string, a bytes-like object or a number, not 'dict'",)  
+2018-05-22 11:01:23,907  ERROR  16888  F:\old_my_documents\web_projects\certificate\certificate\views.py  read_csv  50  IndexError('list index out of range',)  

@@ -40,3 +40,6 @@ class Workshop_Certificate(models.Model):
 class Student(models.Model):
 	student_name = models.CharField(max_length= 255)
 	student_email = models.CharField(max_length=255)
+
+	def __str__(self):
+		return self.student_name
