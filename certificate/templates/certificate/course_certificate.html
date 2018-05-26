@@ -35,8 +35,9 @@
 	$(document).ready( function(){
 
 	function show_certificate_preview(){
-		image = $(this).find(":selected").val();
-		$(".cert-template").attr("src",image)	
+		var image = $(this).find(":selected").val();
+		$(".cert-template").attr("src",image)
+		alert('cool');
 	}
 
 
