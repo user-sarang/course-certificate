@@ -14,7 +14,7 @@
 
 <div class="form-group">
 	<label>Certificate type</label>
-	<select class="form-control template">
+	<select class="form-control template" id="cert_dropdown">
 		{% for c in data.certificates %}
 			<option value={{c.course_template.file}}> {{ c.course_certificate_type}}</option>
 		{% endfor %}
@@ -33,9 +33,14 @@
 
 	<script>
 	$(document).ready( function(){
-		image = $(".template").find(":selected").val();
-		alert(image);
-		$(".cert-template").attr("src",image)
+		
+	$('#cert_dropdown').change(function(){
+		
+		image = $(this).find(":selected").val();
+		$(".cert-template").attr("src",image)		
+
+	});
+		
 	
 		
 	});
