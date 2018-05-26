@@ -33,12 +33,18 @@
 
 	<script>
 	$(document).ready( function(){
+
+	function show_certificate_preview(){
+		image = $(this).find(":selected").val();
+		$(".cert-template").attr("src",image)	
+	}
+
+
+	show_certificate_preview();
 		
 	$('#cert_dropdown').change(function(){
 		
-		image = $(this).find(":selected").val();
-		$(".cert-template").attr("src",image)		
-
+		show_certificate_preview();
 	});
 		
 	
