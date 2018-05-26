@@ -16,7 +16,7 @@
 	<label>Certificate type</label>
 	<select class="form-control template" id="cert_dropdown">
 		{% for c in data.certificates %}
-			<option value={{c.course_template.file}}> {{ c.course_certificate_type}}</option>
+			<option value={{c.course_template.url}}> {{ c.course_certificate_type}}</option>
 		{% endfor %}
 	</select>
 </div> 
@@ -37,7 +37,7 @@
 	function show_certificate_preview(){
 		var image = $(this).find(":selected").val();
 		$(".cert-template").attr("src",image)
-		alert('cool');
+		
 	}
 
 
